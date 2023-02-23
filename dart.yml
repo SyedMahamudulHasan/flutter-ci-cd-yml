@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - dev
 
 jobs:
   build:
@@ -43,4 +44,3 @@ jobs:
             release_notes: "a new version"
             file: ./build/app/outputs/flutter-apk/app-release.apk
 
-            
